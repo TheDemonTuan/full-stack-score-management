@@ -1,0 +1,18 @@
+.active {
+  @apply  bg-secondary/25 rounded-md text-secondary font-semibold underline
+}
+
+.active > a {
+  @apply after:border-secondary after:border-2 after:h-full after:absolute after:top-1/2 after:-translate-y-1/2 after:-right-2 after:rounded-ss-md after:rounded-es-md
+}
+
+.sidebarOpen {
+  animation: sidebarOpen 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes sidebarOpen {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% { transform: translateX(0); }
+}
