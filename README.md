@@ -9,6 +9,8 @@
     - ...
 - 🚀 [NextJS](https://nextjs.org/) for the frontend.
     - 💃 Using TypeScript, hooks, and other parts of a modern frontend stack.
+    - 🔗 [Tanstack Query](https://tanstack.com/query/latest), for api call with cache, retry features.
+    - 🐻 [Zudstand](https://tanstack.com/query/latest), a small, fast and scalable state-management solution using simplified flux principles.
     - 🎨 [Shadcn UI](https://ui.shadcn.com/) for the frontend components.
     - 🎨 [Next UI](https://nextui.org/) for the frontend components.
     - 🎨 [Daisy UI](https://daisyui.com/) for the frontend components.
